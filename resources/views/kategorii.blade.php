@@ -26,8 +26,8 @@
 				</div>
 
 			<section>
-				<form action="" method="post" class="search">
-					<input type="search" name="" placeholder="поиск" class="input" />
+				<form action="/search" method="get" class="search">
+					<input type="search" name="title" placeholder="поиск" class="input" />
 					<input type="submit" name="" value="" class="submit" />
 				</form>
 			</section>

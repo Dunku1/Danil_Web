@@ -7,6 +7,8 @@
 	
 	<body class="bigbackground">
 
+
+
 		<header>
 
 			<section>
@@ -26,8 +28,8 @@
 				</div>
 
 			<section>
-				<form action="" method="post" class="search">
-					<input type="search" name="" placeholder="поиск" class="input" />
+				<form action="/search" method="get" class="search">
+					<input type="search" name="title" placeholder="поиск" class="input" />
 					<input type="submit" name="" value="" class="submit" />
 				</form>
 			</section>
@@ -47,8 +49,12 @@
 				</div>
 			</section>
 				</div>
+
+			<!--  <?php echo $tovar1; ?> -->
 			
 			<section>
+
+
 
 				<div class="mar">
 					<a href="/" class="mar"> Вернутся на главную </a>

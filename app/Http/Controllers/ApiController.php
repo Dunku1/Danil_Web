@@ -15,7 +15,7 @@ class ApiController extends Controller
 
     public function kategoriiAction()
     {
-    	return view('kategorii');
+    	return view('kategorii', ['kategorii' => (new ArticleController())->show()]);
     }
 
     public function kontaktiAction()
@@ -40,7 +40,17 @@ class ApiController extends Controller
 
     public function tovar1Action()
     {
-    	return view('tovar1');
+    	return view('tovar1', ['tovar1' => (new ArticleController())->show()]);
+    }
+
+    public function tovar1_1Action()
+    {
+    	return view('tovar1_1');
+    }
+
+    public function tovar2_2Action()
+    {
+    	return view('tovar2_2');
     }
 
     public function tovar2Action()
@@ -56,5 +66,10 @@ class ApiController extends Controller
     public function tovar4Action()
     {
     	return view('tovar4');
+    }
+
+    public function search(Request $request)
+    {
+    	return view('tovar1_1', ['tovar1_1' => (new ArticleController())->search($request->title)]);
     }
 }

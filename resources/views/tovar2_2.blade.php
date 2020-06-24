@@ -26,8 +26,8 @@
 				</div>
 
 			<section>
-				<form action="/search" method="get" class="search">
-					<input type="search" name="title" placeholder="поиск" class="input" />
+				<form action="" method="post" class="search">
+					<input type="search" name="" placeholder="поиск" class="input" />
 					<input type="submit" name="" value="" class="submit" />
 				</form>
 			</section>
@@ -40,68 +40,38 @@
 								<a href="/stati">Статьи</a>
 							</li>
 							<li class="menu2">
-								<a href="/kontaktil">Наши контакты</a>
+								<a href="/kontakti">Наши контакты</a>
 							</li>
 						</ul>
 					</nav>
 				</div>
 			</section>
 				</div>
-			
-			<section>
 
-				<div class="mar">
+				<div class="mar" style="margin-bottom: 30px">
 					<a href="/" class="mar"> Вернутся на главную </a>
 				</div>
-
-				<div class="kontakti">
-
-					<div class="flex" style="margin-bottom:20px;">
-
-						<div style="margin-right:180px;">
-							Адрес: ул. Трактовая, 18/27Иркутск
-						</div>
-
-						<div>
-							Телефон: +7 (902) 513-49-90
-						</div>
-
-					</div>
-
-					<div class="flex" style="margin-bottom:20px;">
-
-						<div style="margin-right:279px;">
-							Viber: +7 (902) 513-49-90
-						</div>
-
-						<div>
-							Часы работы: По будням с 10:00 до 17:00
-						</div>
-
-					</div>
-
-					<div class="flex" style="margin-bottom:20px;">
-
-						<div style="margin-right:300px;">
-							E-Mail: sport.trip@bk.ru
-						</div>
-
-						<div>
-							WhatSapp: +7 (902) 513-49-90
-						</div>
-
-					</div>
-
-					<div style="margin-bottom:20px;">
-						Telegram: +7 (902) 513-49-90
-					</div> 
-
+			
+			<section>
+				<div class="flex">
+			
+			
+			<section>
+				<div class="container">
+					<a href="/tovar2" class="ssilki">
+					<img src="img/begovie.png" class="begovie">
+					</a>
+				</div>
+			</section>
+				
 				</div>
 
 			<section>
 				<div class="c">
 					©2000-2020 «Sport-trip»
 				</div>
+			</section>
+
 			</section>
 
 		</header>
